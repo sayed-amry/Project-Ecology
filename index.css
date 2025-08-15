@@ -38,16 +38,32 @@ body{
         height: 90%;
         color:white;
         .box{
-            background-color:rgba(245, 245, 130, 0.507) ;
+            background-color:rgba(245, 245, 130, 0.267) ;
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
             width: 40%;
             height: 60%;
+            h4{
+                font-size: small;
+                font-weight:lighter;
+            }
+            p{
+                font-size: xx-large;
+            }
             a{
-                width: 100%;
-                text-align: center;
+                &:link, &:visited {
+                    /* width: 30%; */
+                    text-align: center;
+                    text-decoration: none ;
+                    color:white;
+                    background-color: green;
+                    padding: 14px 24px;
+                }
+                &:hover,&:active{
+                    background-color: rgb(42, 179, 42);
+                }
             }
         }
     }
