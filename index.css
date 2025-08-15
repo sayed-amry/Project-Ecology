@@ -4,14 +4,38 @@
     box-sizing: border-box;
 }
 .s1{
-    
+    width: 100%;
+    height: 60vh;
+    header{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 70%;
+        background-color: black;
+        color:white;
+        h1{
+            font-size: 2rem;
+        }
+        i{
+            font-size: 20px;
+        }
+    }
+    .c-s1{
+        background-image:url(./img/S1.jpeg);
+        width: 100%;
+        height: 90%;
+        background-color: rgb(39, 247, 247);
+        color:white;
+    }
 }
 .s2{
-    
+
 }
 .s3{
-    
+
 }
 .s4{
-    
+
 }
